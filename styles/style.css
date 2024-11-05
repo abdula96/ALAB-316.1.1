@@ -1,0 +1,22 @@
+/* CSS Custom Properties */
+:root {
+    --main-bg: #4a4e4d; /* Custom background color */
+    --top-menu-bg: #0e9aa7;
+    --sub-menu-bg: #3da4ab;
+  }
+  
+  body {
+    font-family: Tahoma, Geneva, sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: 3rem auto;
+    color: white;
+  }
+  
+  .flex-ctr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
