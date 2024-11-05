@@ -14,13 +14,18 @@ mainEl.classList.add('flex-ctr');
 
 //======================Part-2===================================//
 
-var topMenuEl = document.getElementById("top-menu");
+// Select and cache the <nav id="top-menu"> element
+const topMenuEl = document.querySelector('#top-menu');
 
-topMenuEl.style.height = "100%";
+// Set the height of topMenuEl to 100%
+topMenuEl.style.height = '100%';
 
+// Set the background color of topMenuEl using the --top-menu-bg CSS custom property
 topMenuEl.style.backgroundColor = 'var(--top-menu-bg)';
 
-topMenuEl.classList.add("flex-around");
+// Add a class of "flex-around" to topMenuEl to apply the flexbox styling
+topMenuEl.classList.add('flex-around');
+
 
 //======================Part-3===================================//
 
